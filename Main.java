@@ -88,7 +88,7 @@ class Main
                 case MODERATE_OBESITY:
                     return "Você está com uma obesidade moderada";
                 case MORBID_OBESITY:
-                    return "Você está com obesidade mórbida";
+                    return "Você está com obesidade mórbida - Gordo!";
             }
 
             return "Não foi possível encontrar mensagem para categoria: " + category.toString();
